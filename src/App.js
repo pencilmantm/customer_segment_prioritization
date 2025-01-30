@@ -122,7 +122,6 @@ function App() {
         {/* Y-axis values */}
         <div style={{ position: 'absolute', left: '-45px', top: '0', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
           <span>High</span>
-          <span>Medium</span>
           <span>Low</span>
         </div>
 
@@ -147,7 +146,6 @@ function App() {
           justifyContent: 'space-between',
         }}>
           <span>Low</span>
-          <span>Medium</span>
           <span>High</span>
         </div>
 
@@ -174,8 +172,8 @@ function App() {
               position: 'relative'
             }}>
               <div className="quadrant-label">
-                Consider Later
-                <div className="quadrant-description">High Value, Hard to Research</div>
+                Priority Segments
+                <div className="quadrant-description">High Value, Low Research Effort</div>
               </div>
             </div>
             <div style={{ 
@@ -183,8 +181,8 @@ function App() {
               position: 'relative'
             }}>
               <div className="quadrant-label">
-                Priority Segments
-                <div className="quadrant-description">High Value, Easy to Research</div>
+                Consider Later
+                <div className="quadrant-description">High Value, High Research Effort</div>
               </div>
             </div>
             <div style={{ 
@@ -192,14 +190,14 @@ function App() {
               position: 'relative'
             }}>
               <div className="quadrant-label">
-                Deprioritize
-                <div className="quadrant-description">Low Value, Hard to Research</div>
+                Quick Wins
+                <div className="quadrant-description">Low Value, Low Research Effort</div>
               </div>
             </div>
             <div style={{ position: 'relative' }}>
               <div className="quadrant-label">
-                Quick Wins
-                <div className="quadrant-description">Low Value, Easy to Research</div>
+                Deprioritize
+                <div className="quadrant-description">Low Value, High Research Effort</div>
               </div>
             </div>
           </div>
